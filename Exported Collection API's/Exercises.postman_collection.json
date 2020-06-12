@@ -1,0 +1,101 @@
+{
+	"id": "29bf573a-8935-4fcd-9882-322d7d68df50",
+	"name": "Exercises",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"c98b92a1-725f-427f-8e57-66af839cb970",
+		"b29cdcee-d9a8-4b25-bd50-ec450d10aa46",
+		"f8969148-1db4-4d67-a77d-fdb7bb2daab8",
+		"92f1e40e-61be-4fcc-9b03-a4ddd57394d9"
+	],
+	"folders_order": [],
+	"protocolProfileBehavior": {},
+	"folders": [],
+	"requests": [
+		{
+			"id": "92f1e40e-61be-4fcc-9b03-a4ddd57394d9",
+			"name": "/users/{id}",
+			"url": "{{local_url}}/users/1",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\n\t\"comments\" : \"CEO\"\n}",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "b29cdcee-d9a8-4b25-bd50-ec450d10aa46",
+			"name": "/users/{id}",
+			"url": "{{local_url}}/users/1",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "c98b92a1-725f-427f-8e57-66af839cb970",
+			"name": "/users",
+			"url": "{{local_url}}/users",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "f8969148-1db4-4d67-a77d-fdb7bb2daab8",
+			"name": "/users",
+			"url": "{{local_url}}/users",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\n\t\"id\" : 1,\n\t\"name\": \"John Smith\",\n\t\"comments\" : \"Director\"\n\t\n}",
+			"headers": "",
+			"pathVariables": {}
+		}
+	]
+}
