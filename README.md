@@ -11,7 +11,7 @@ Functionalities
 - User List
 - User Show Details
 - User Add
-- user Update
+- User Update
 
 Functionality to be Ported
 -------------------
