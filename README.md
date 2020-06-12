@@ -1,5 +1,13 @@
 ## Pictureworks Laravel Coding  Test
 
+- Create database name legacy_application in MySql
+- Open terminal or Command prommpt.
+- Run the migration "php artisan migrate"
+- Run the database seeder "php artisan db:seed"
+- Serve application by "php artisan serve"
+- Index page will redirect to users
+- In user have view functions to view the layout provided by the exam and dyamic data from the database seeder
+
 How to Import Json collection and enviroment in Postman
 -------------------
 
