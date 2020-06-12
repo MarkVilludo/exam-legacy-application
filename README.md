@@ -1,12 +1,13 @@
 ## Pictureworks Laravel Coding  Test
 
-
-##How to Import Json collection and enviroment in Postman
+How to Import Json collection and enviroment in Postman
+-------------------
 
 - Open postman and import the collection and enviroment json file in the the root folder of the project > Exported Collection API's the ff file shows.
 
 
-###Functionalities
+Functionalities
+-------------------
 - User List
 - User Show Details
 - User Add
