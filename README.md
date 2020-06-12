@@ -1,7 +1,7 @@
 ## Pictureworks Laravel Coding  Test
 
 - Create database name legacy_application in MySql
-- Edit .env file and put database name in "database=legacy_application"
+- Edit .env file and put database name in "DB_DATABASE=legacy_application"
 - Open terminal or Command prommpt.
 - Run the migration "php artisan migrate"
 - Run the database seeder "php artisan db:seed"
