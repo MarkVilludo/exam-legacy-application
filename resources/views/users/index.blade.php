@@ -12,6 +12,7 @@
 		<table class="table">
 			<tr>
 				<th>ID</th>
+				<th>Name</th>
 				<th>Comments</th>
 				<th>Action</th>
 			</tr>
@@ -19,6 +20,7 @@
 				@foreach ($users as $user)
 					<tr>
 						<td>{{$user->id}}</td>
+						<td>{{$user->name}}</td>
 						<td>{{$user->comments}}</td>
 						<td>
 							<a href="{{url('users', $user->id)}}">
