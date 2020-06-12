@@ -93,7 +93,7 @@
 			"auth": null,
 			"events": [],
 			"folder": null,
-			"rawModeData": "{\n\t\"id\" : 1,\n\t\"name\": \"John Smith\",\n\t\"comments\" : \"Director\"\n\t\n}",
+			"rawModeData": "{\n\t\"id\" : 1,\n\t\"name\": \"John Smith\",\n\t\"comments\" : \"Director\",\n\t\"password\" : \"test123\"\n}",
 			"headers": "",
 			"pathVariables": {}
 		}
